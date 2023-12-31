@@ -229,4 +229,11 @@ The guards of the university, keeping order and protecting the students and pers
 
 -showGuard(): void: Displays detailed information about the guard, including the working time.
 
+XIII] Classroom
+
+-A class which represents the different classrooms in a university.
+
+XIV] Group
+-The groups of each branch. Each student belongs to a group.
+
 
