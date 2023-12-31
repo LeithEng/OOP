@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 public class Course {
     private String name;
+    private Classroom classroom;
     private Teacher teacher;
     private float coefficient;
     private ArrayList<Student> students = new ArrayList<>();
 
-    Course(String name, Teacher teacher, float coeff) {
+    Course(String name, Teacher teacher, float coeff, Classroom classroom) {
         this.name = name;
         this.teacher = teacher;
         coefficient = coeff;
+        this.classroom=classroom;
     }
 
     public void AddStudent(Student s) {
@@ -25,6 +27,7 @@ public class Course {
             System.out.println("Student " + (i + 1));
             students.get(i).show_student_info();
         }
+        classroom.ShowClassroom();
     }
 
     public String getName() {
