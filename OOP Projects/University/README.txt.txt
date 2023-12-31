@@ -1,7 +1,6 @@
 # University Simulation Project Documentation
 
-Greeting, sir! In this document, you'll find you'll find detailed information about the structure, classes and functionalities included in this project. The objective of this project is to simulate a university and its different structures and "parts". The most notable classes I included are Student (who, in turn, can be divided into normal students and students who work as staff in a club), Teacher, Branch, Course, Club, Event and Staff (divided into 3 categories: Guards, Administrative Staff and Cleaning Crew). Please note that, since this is my first time writing a documentation of a project, the document may be a bit too long.
-
+In this document, you'll find you'll find detailed information about the structure, classes and functionalities included in this project. The objective of this project is to simulate a university and its different structures and "parts".
 I] Branch class
 
 This class represents the different branches in a university.
